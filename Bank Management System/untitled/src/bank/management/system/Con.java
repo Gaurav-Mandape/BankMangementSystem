@@ -9,7 +9,7 @@ public class Con {
     Statement statement;
     public Con(){
         try{
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/bankSystem" , "root" , "Gaurav@sql2026");
+            connection = DriverManager.getConnection("database URL" , "root" , "Password");
             statement = connection.createStatement();
         }
         catch (Exception e){
